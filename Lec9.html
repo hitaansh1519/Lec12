@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Event Registration</h1>
+
+    <label for="name">Name:</label>
+    </br>
+    <input type="text" name="name" id="name">
+    </br>
+
+    <label for="email">Email:</label>
+    </br>
+    <input type="email" name="email" id="email">
+    </br>
+    <label for="phone">PHONE</label>
+    </br>
+    <input type="number" name="phone" id="phone">
+    </br>
+    <label for="occupation">Occupations</label>
+    </br>
+    <select name="occupation" id="occupation">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="staff">Staff</option>
+    </select>
+    </br></br>
+
+    <label>Types of interest</label>
+    </br>
+    <input type="checkbox" name="interest" id="interest">
+    <label for="interest">HTML</label>
+    </br>
+
+    <input type="checkbox" name="interest" id="interest">
+    <label for="interest">CSS</label>
+    </br>
+
+    <input type="checkbox" name="interest" id="interest">
+    <label for="interest">Jacascript</label>
+    </br></br>
+
+    <label for="text">Comments</label></br>
+    <input type="text" name="text" id="text">
+    <button type="submit">Register</button>
+    </form>
+
+    <hr>
+
+    <form>
+        <h1>Job Application</h1>
+        <label for="name1">Name:</label>
+        </br>
+        <input type="text" name="name1" id="name1">
+        </br>
+
+        <label for="email">Email:</label>
+        </br>
+        <input type="email" name="email" id="email">
+        </br>
+
+        <label for="phone">Phone:</label>
+        </br>
+        <input type="number" name="phone" id="phone">
+        </br>
+
+        <label for="resume">Resume:</label>
+        </br>
+        <input type="file" name="resume" id="resume">
+        </br>
+
+        <label for="experience">Experience(years):</label>
+        </br>
+        <input type="number" name="experience" id="experience">
+        </br>
+
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="skill" id="skill">
+            <label for="skill">HTML</label>
+            </br>
+
+            <input type="checkbox" name="skill" id="skill">
+            <label for="skill">CSS</label>
+            </br>
+
+            <input type="checkbox" name="skill" id="skill">
+            <label for="skill">Javascript</label>
+            </br>
+        </fieldset>
+
+        </br>
+
+        <label for="education">Highest Education:</label></br>
+        <select>
+            <option>--Select Option--</option>
+            <option name="">Primary School</option>
+            <option>High School</option>
+            <option>Pre Graduarte</option>
+            <option>Post Graduarte</option>
+        </select>
+
+        </br>
+        <label for="availability">Availability</label>
+        </br>
+        <input type="radio" name="availability" id="availability">
+        <label for="availability">Full Time</label>
+
+        </br>
+
+        <input type="radio" name="availability" id="availability">
+        <label for="availability">Part Time</label>
+        </br>
+        <label for="comment">Additional Comments:</label>
+        </br>
+        <textarea id="comment" type="textarea" name="comment" cols="30" rows="5"></textarea>
+        <input type="submit" id="register" name="register" value="Register">
+    </form>
+
+    <hr>
+
+    <form>
+        <h1>Complex Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="name">Name:</label>
+            <input required type="text" id="name1" name="name1">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone">
+
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" id="DOB" name="DOB">
+
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" >
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" >
+            <label for="gender">Female</label>
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option>--Select Country--</option>
+                <option>India</option>
+                <option>Australia</option>
+                <option>USA</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Address
+                <label for="street">Street</label>
+                <input type="text" id="street" name="street">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+
+                <label for="state">State</label>
+                <input type="text" id="state" name="state">
+
+                <label for="zip">Zip Code</label>
+                <input type="number" id="zip" name="zip">
+            </legend>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comment">Comments</label>
+            <textarea type="text" id="comment" name="comment" cols="50" rows="4"></textarea>
+            <label for="TAC">I agree to the terms and services</label>
+            <input type="checkbox" id="TAC" name="TAC">
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
